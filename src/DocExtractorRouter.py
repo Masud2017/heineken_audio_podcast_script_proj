@@ -23,3 +23,5 @@ def extract_file(file_path: str) -> str:
 
     else:
         raise ValueError(f"Unsupported file type: {ext}")
+    
+print(extract_file("test_pdf.pdf"))
